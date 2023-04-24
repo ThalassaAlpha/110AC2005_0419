@@ -1,9 +1,9 @@
 class Boid{
     constructor(){
-      this.position=createVector(random(width), random(height)); //位置(隨機)
-      this.velocity=p5.Vector.random2D();//速度
-      this.velocity.setMag(random(2,4))//隨機速度
-      this.acceleration=createVector();//加速度
+      this.position=createVector(random(width), random(height)); 
+      this.velocity=p5.Vector.random2D();
+      this.velocity.setMag(random(2,4))
+      this.acceleration=createVector();
       this.maxForce=0.2;
       this.maxSpeed=5;
     }
